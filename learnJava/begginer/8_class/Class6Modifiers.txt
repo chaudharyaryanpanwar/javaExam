@@ -1,0 +1,26 @@
+
+  /* PUBLIC keyword is an access modifier  , meaning that it is 
+  used to set the access level for classes , methods, and variables. 
+  */ 
+//  public , private , default , protected
+//PUBLIC: code is accessible for all classes
+//PRIVATE : code is only accessible within the declared class
+//DEFAULT : code is accessible only in the same package
+//PROTECTED: code is accessible within the same package and also in subclasses of the class
+ 
+//  Non-Access Modifiers : final , Abstract
+// FINAL : class cannot be inherited by other classes 
+// ABSTRACT : class cannot be used to create objects(it must be inherited from another class) to access it . 
+
+
+
+/* for attribbutes and methods , we can use the following : 
+FINAL : Attributes and methods cannot be overriden/modified
+STATIC : Attributes and methods belong the the class , rather than a objct
+!!!ABSTACT : can only be used in an abstract class , and can only be used on methods. The methods does
+not have a body , for example ABSTRACT VOID RUN(); The bosy is provided by  the subclass !!!
+TRANSIENT : attributes and methods are skipped when serializing the object containing them 
+SYNCHRONIZED : methods can only be accessed by one thread at a time
+VOLATILE : the value of an attribute is not cached thread-locally , and is always read from the 'main memory'
+
+*/ 
